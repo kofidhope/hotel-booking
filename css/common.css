@@ -1,0 +1,32 @@
+:root{
+    --teal:#2ac0a9;
+    --teal_hover: #2ec1ac;
+}
+*{
+    font-family: "Poppins", sans-serif;
+}
+.h-font{
+    font-family: "Merienda", cursive;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+input[type=number] {
+-moz-appearance: textfield;
+}
+.custom-bg{
+    background-color:var(--teal);
+}
+.custom-bg:hover{
+    background-color: var(--teal_hovers);
+}
+
+.h-line{
+    width: 150px;
+    height: 1.7px;
+    margin: 0 auto;
+}
